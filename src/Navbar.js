@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar() {
     return (
         <nav className="nav">
-            <a href="/" className="home-title">Home</a>
+            <Link to="/creative-project-3/build/">Home</Link>
             <ul>
-                <li><a href="/add">Add</a></li>
-                <li><a href="/subtract">Subtract</a></li>
+                <li><Link to="/creative-project-3/build/add">Add</Link></li>
+                <li><Link to="/creative-project-3/build/subtract">Subtract</Link></li>
             </ul>
         </nav>
     );
