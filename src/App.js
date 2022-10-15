@@ -10,9 +10,9 @@ function App() {
     <div>
       <Navbar />
       <Routes>
-        <Route path="/creative-project-3/build/" element={<Home/>} />
-        <Route path="/creative-project-3/build/add" element={<Add/>} />
-        <Route path="/creative-project-3/build/subtract" element={<Subtract/>} />
+        <Route path="/" element={<Home/>} />
+        <Route path="/add" element={<Add/>} />
+        <Route path="/subtract" element={<Subtract/>} />
       </Routes>
     </div>
   );
