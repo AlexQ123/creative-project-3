@@ -5,7 +5,8 @@ import Add from './Add';
 import Subtract from './Subtract';
 
 function App() {
-  let Component
+  let Component = Home
+  
   switch (window.location.pathname) {
     case "/":
       Component = Home
@@ -17,6 +18,7 @@ function App() {
       Component = Subtract
       break
   }
+  
   return (
     <div>
       <Navbar />
