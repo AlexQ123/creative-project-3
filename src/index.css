@@ -22,6 +22,8 @@ body {
   background-color: #D8BFD8;
 }
 
+/*NAVBAR STYLES*/
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -48,7 +50,51 @@ body {
   text-decoration: underline;
 }
 
+/*APP STYLES*/
+
 .titles-container {
   text-align: center;
   color: black;
+  margin: 50px;
+}
+
+/*HOME STYLES*/
+.home-container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.home-text {
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  font-size: 20px;
+  margin: 25px;
+}
+
+.home-pic {
+  margin: 25px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home-container {
+    margin: 0;
+  }
+  
+  .home-text {
+    margin: 0;
+  }
+  
+  .brain-pic {
+    width: 307.5px;
+    height: 302.25px;
+  }
 }
