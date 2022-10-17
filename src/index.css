@@ -98,3 +98,11 @@ body {
     height: 302.25px;
   }
 }
+
+/*ADD STYLES*/
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
