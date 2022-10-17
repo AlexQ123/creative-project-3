@@ -91,6 +91,7 @@ body {
   
   .home-text {
     margin: 0;
+    margin-bottom: 50px;
   }
   
   .brain-pic {
@@ -133,6 +134,9 @@ form {
 
 /*FOOTER STYLES*/
 .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
   width: 100%;
   background-color: #21c4f4;
   color: white;
@@ -142,11 +146,9 @@ form {
   padding-top: 10px;
 }
 
-@media only screen and (min-width: 501px) {
+@media only screen and (max-width: 501px) {
   .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+    
   }
 }
 
