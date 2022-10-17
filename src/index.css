@@ -99,10 +99,34 @@ body {
   }
 }
 
-/*ADD STYLES*/
+/*ADD & SUBTRACT STYLES*/
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.begin-button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin-bottom: 75px;
+  cursor: pointer;
+}
+
+.check-button {
+  background-color: #21c4f4;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.score {
+  margin-top: 75px;
 }
